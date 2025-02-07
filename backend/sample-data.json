@@ -1,0 +1,14 @@
+{
+    "name": "Morning Yoga Stretch",
+    "image": "https://example.com/morning-yoga.jpg",
+    "availableSeats": 30,
+    "price": "20",
+    "videoLink": "https://youtu.be/exampleVideo1",
+    "description": "Start your day with a gentle yoga stretch.",
+    "instructorName": "Alice Johnson",
+    "instructorEmail": "alice@yoga.com",
+    "status": "pending",
+    "submitted": "2024-03-01T08:00:00.000Z",
+    "totalEnrolled": 5,
+    "reason": "Waiting for admin approval"
+}
