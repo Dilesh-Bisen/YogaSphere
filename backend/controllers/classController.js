@@ -1,7 +1,6 @@
 const { ObjectId } = require('mongodb');
 const { getCollections } = require('../config/db');
 
-// POST a new class
 async function createClass(req, res) {
     const { classCollection } = getCollections();
     const newClass = req.body;
@@ -9,14 +8,12 @@ async function createClass(req, res) {
     res.send(result);
 }
 
-// GET all classes
 async function getAllClasses(req, res) {
     const { classCollection } = getCollections();
     const result = await classCollection.find().toArray();
     res.send(result);
 }
 
-// GET approved classes
 async function getApprovedClasses(req, res) {
     const { classCollection } = getCollections();
     const query = { status: 'approved' };
@@ -24,7 +21,6 @@ async function getApprovedClasses(req, res) {
     res.send(result);
 }
 
-// GET classes by instructor email
 async function getClassesByEmail(req, res) {
     const { classCollection } = getCollections();
     const email = req.params.email;
@@ -33,7 +29,6 @@ async function getClassesByEmail(req, res) {
     res.send(result);
 }
 
-// GET class by ID
 async function getClassById(req, res) {
     const { classCollection } = getCollections();
     const id = req.params.id;
@@ -42,7 +37,6 @@ async function getClassById(req, res) {
     res.send(result);
 }
 
-// PATCH update class status
 async function updateClassStatus(req, res) {
     const { classCollection } = getCollections();
     const id = req.params.id;
@@ -54,7 +48,6 @@ async function updateClassStatus(req, res) {
     res.send(result);
 }
 
-// PUT update class details
 async function updateClassDetails(req, res) {
     const { classCollection } = getCollections();
     const id = req.params.id;

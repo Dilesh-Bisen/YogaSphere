@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "name": "Morning Yoga Flow",
+            "image": "https://example.com/morning-yoga.jpg",
+            "availableSeats": 30,
+            "price": "20",
+            "videoLink": "https://youtu.be/exampleVideo1",
+            "description": "Start your day with a refreshing yoga session.",
+            "instructorName": "Alice Johnson",
+            "instructorEmail": "alice@example.com",
+            "status": "approved",
+            "submitted": "2024-03-01T08:00:00.000Z",
+            "totalEnrolled": 5,
+            "reason": null
+        },
+        {
+            "name": "Evening Relaxation",
+            "image": "https://example.com/evening-relax.jpg",
+            "availableSeats": 25,
+            "price": "15",
+            "videoLink": "https://youtu.be/exampleVideo2",
+            "description": "Unwind after a long day with gentle yoga poses.",
+            "instructorName": "Bob Smith",
+            "instructorEmail": "bob@example.com",
+            "status": "pending",
+            "submitted": "2024-03-01T18:00:00.000Z",
+            "totalEnrolled": 10,
+            "reason": null
+        }
+    ]
+}

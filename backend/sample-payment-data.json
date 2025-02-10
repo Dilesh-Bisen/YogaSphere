@@ -1,0 +1,31 @@
+{
+    "payments": [
+        {
+            "transactionId": "txn_12345",
+            "paymentMethod": "card_12345",
+            "amount": 35,
+            "currency": "usd",
+            "paymentStatus": "succeeded",
+            "userName": "Alice Johnson",
+            "userEmail": "alice@example.com",
+            "classesId": [
+                "65e0a8b1ea542e3f73e3a796",
+                "65e0a8b1ea542e3f73e3a797"
+            ],
+            "date": "2024-03-02T10:00:00.000Z"
+        },
+        {
+            "transactionId": "txn_67890",
+            "paymentMethod": "card_67890",
+            "amount": 15,
+            "currency": "usd",
+            "paymentStatus": "succeeded",
+            "userName": "Bob Smith",
+            "userEmail": "bob@example.com",
+            "classesId": [
+                "65e0a8b1ea542e3f73e3a797"
+            ],
+            "date": "2024-03-02T11:00:00.000Z"
+        }
+    ]
+}

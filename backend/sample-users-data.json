@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "name": "Alice Johnson",
+            "email": "alice@example.com",
+            "photoUrl": "https://example.com/alice.jpg",
+            "role": "instructor",
+            "gender": "female",
+            "address": "123 Yoga Lane, Fitnessville",
+            "phone": "+911234567890"
+        },
+        {
+            "name": "Bob Smith",
+            "email": "bob@example.com",
+            "photoUrl": "https://example.com/bob.jpg",
+            "role": "student",
+            "gender": "male",
+            "address": "456 Flexibility Avenue, Stretchcity",
+            "phone": "+910987654321"
+        }
+    ]
+}

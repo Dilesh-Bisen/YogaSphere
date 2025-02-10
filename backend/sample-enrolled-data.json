@@ -1,0 +1,19 @@
+{
+    "enrolled": [
+        {
+            "userEmail": "alice@example.com",
+            "classesId": [
+                "65e0a8b1ea542e3f73e3a796",
+                "65e0a8b1ea542e3f73e3a797"
+            ],
+            "transactionId": "txn_12345"
+        },
+        {
+            "userEmail": "bob@example.com",
+            "classesId": [
+                "65e0a8b1ea542e3f73e3a797"
+            ],
+            "transactionId": "txn_67890"
+        }
+    ]
+}
