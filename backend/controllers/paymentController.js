@@ -34,7 +34,7 @@ async function createPaymentInfo(req, res) {
             query = { classId: singleClassId, userMail: userEmail };
         }
         else {
-            query = { classId: { $in: classesId } }
+            query = { classId: { $in: classesId } };
         }
     }
     catch (error) {
