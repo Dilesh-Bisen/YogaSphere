@@ -1,3 +1,4 @@
 MONGODB_URI=your_mongodb_uri_here
-PORT=your_port_here
+PORT=3045
 STRIPE_SECRET_KEY=your_payment_secret_key
+JWT_SECRET_KEY=your_jwt_secret_key

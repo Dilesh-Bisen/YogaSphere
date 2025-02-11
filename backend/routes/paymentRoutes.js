@@ -4,6 +4,7 @@ const paymentController = require('../controllers/paymentController');
 
 router.post('/create-payment-intent', paymentController.createPaymentIntent);
 router.post('/create-payment-info', paymentController.createPaymentInfo);
-router.get('/payment-intent/:id', paymentController.retrievePaymentIntent);
+router.get('/payment-history/:email', paymentController.getPaymentHistory);
+router.get('/payment-history-length/:email', paymentController.getPaymentHistoryLength);
 
 module.exports = router;
